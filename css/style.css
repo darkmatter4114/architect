@@ -1,0 +1,967 @@
+body{
+	/*width: 1440px;*/
+}
+.navbar{
+	height: 102px;
+    padding: 29px 155px;
+}
+div.collapse.navbar-collapse{
+	margin-left: 330px;
+}
+ul.navbar-nav{
+	margin-left: -25px ;
+}
+
+ul li.nav-item{
+	margin-right: 60px;
+}
+ul li.nav-item.active{
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+section#head{
+	height: 829px;
+    margin-bottom: 120px;
+}
+
+div.wrap.img.header{
+	position: absolute;
+	left: 535px;
+	height: 829px;
+	width: 770px;
+}
+div.wrap.img.header a{	
+	position: absolute;
+    border: 1px solid;
+    width: 221.81px;
+    height: 71px;
+    left: 0;
+    bottom: 0;
+    color: #000;
+    background-color: #fff;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    padding: 24px 50px;
+}
+div.wrap.img.header a>i::before{
+	margin-left: 12px;
+}
+
+#head .col-5{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#head  div.title{
+	margin-top: 336px;
+    height: 128px;
+    width: 331px;
+}
+#head  div.title span:nth-child(1){
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+}
+#head  div.title span:nth-child(2){
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+}
+#head div.button{
+    margin-top: 90px;
+    
+}
+#head div.button button{
+	width: 52.95px;
+    height: 53px;
+    background-color: #F2F2F2;
+}
+#head div.button button:nth-child(1){
+	margin-right: 23px;
+}
+#head  div.wrap.pagin{
+	margin-top: 90px;
+
+}
+
+#company {
+	width: 1170px;
+	height: 435px;
+	background-color: #FBFBFB;
+    margin: auto;
+    margin-bottom: 120px;
+}
+#company .row{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#company .row img{
+    margin-left: 100px;
+    margin-right: 30px;
+}
+#company .row div{
+	display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+#company .row div span.title{
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    width: 390px;
+    margin-bottom: 20px;
+}
+#company .row div span.content{
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    width: 400px;
+    height: 200px;
+}
+#company .row div a, #project_header .wrap_content > a{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 222px;
+    height: 71px;
+    background-color: #fff;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.fa-arrow-right:before{
+	margin-left: 12px;
+}
+
+#task{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 120px;
+}
+#task span.title{
+	width: 100%;
+	font-family: TT Hoves;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 64px;
+	line-height: 64px;
+	color: #BDBDBD;
+}
+#task span.content{
+	flex:1;
+	display: flex;
+    align-items: center;
+    width: 413px;
+    font-family: TT Hoves;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 36px;
+	font-style: normal;
+}
+#task div.col:nth-child(3) .content{
+    width: 570px;
+
+}
+#task div.col:nth-child(3) span.content:before{
+	content: '2';
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 200px;
+	line-height: 239px;
+	color: #F2F2F2;
+	
+}
+#task div.col:nth-child(2) span.content:before{
+	content: '1';
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 200px;
+	line-height: 239px;
+	color: #F2F2F2;
+}
+
+#project .row{
+	display: flex;
+    flex-direction: column;
+}
+
+
+#project .row>span.title{
+ 	width: 100%;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    margin-bottom: 60px;
+}
+
+#project a.all{
+	display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    width: 221px;
+    height: 71px;
+    background-color: #000;
+    margin-top: 30px;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+#project div.wrap{
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#project div.wrap span.title{
+	font-family: TT Hoves;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 64px;
+	color: #FFFFFF;
+}
+#project div.wrap div{
+	background: #333333;
+    opacity: 1.8;
+    padding: 48px 79px;
+	width: 560px;
+    height: 255px;
+}
+#project div.wrap img:nth-child(2){
+	width: 560px;
+    height: 255px;
+    margin-bottom: 30px;
+}
+#project div.wrap img:nth-child(3){
+	width: 270px;
+    height: 255px;
+    /*margin-right: 30px;*/
+}
+#project div.wrap img:nth-child(4){
+	width: 470px;
+    height: 255px;
+    /*margin-right: 30px;*/
+}
+#project div.wrap img:nth-child(5){
+	width: 370px;
+    height: 255px;
+}
+
+#contact .row{
+	height: 603px;
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+}
+#contact .row span.title{
+	font-family: TT Hoves;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 64px;
+	line-height: 64px;
+	color: #BDBDBD;
+}
+#contact .row div{
+	display: flex;
+	flex-direction: row;
+}
+#contact .row div .inf form{
+	display: flex;
+	flex-direction:column;
+	margin-top: 22px; 
+}
+#contact .row div .inf form input{
+	width: 391px;
+	height: 46px;
+	background: #F3F3F3;
+	border: none;
+	margin-bottom: 10px;
+	padding: 15px 0px 15px 21px;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    color: #8D8D8D;
+}
+#contact .row div .inf form input:nth-child(5){
+	width: 391px;
+	height: 147px;
+	padding-bottom: 100px;
+}
+#contact .row div.img{
+	margin-top: 22px;
+	margin-left: 20px;
+	margin-left: 20px;
+	width: 749px;
+    height: 369px;
+    background-image: url('../img/contact.png');
+    background-repeat: no-repeat;
+}
+
+#contact .row button{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 222px;
+    height: 71px;
+    margin-top: 21px;
+    background: #333333;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #fff;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+#contact .row button i::before{
+	margin-left: 12px;
+}
+
+footer{
+	width: 100%;
+	background: #333333;
+	padding-top: 58px;
+}
+
+footer div.wrap.logo{
+	width: 145px;
+	height: 94px;
+	margin-right: 99px;
+	background-image: url('../img/footer-logo.png');
+}
+
+footer div.row:nth-child(1){
+	margin-bottom: 60px;
+    flex-direction: row;
+    padding-left: 116px;
+    width: 100%;
+}
+footer div.row .menu{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 103px;
+    margin-right: 157px;
+}
+footer div.row .menu .title, .contact .title, .social .title{
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+footer div.row .menu ul{
+	margin-top: 25px;
+    list-style: none;
+    height: 180px;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+footer div.row .menu ul li{
+	margin-bottom: 16px;
+}
+footer div.row .contact{
+	width: 314px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+}
+footer div.row .contact span{
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+footer div.row .contact span.title{
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+footer div.row .contact span.adr{
+    width: 314px;
+    height: 72px;
+    margin-bottom: 32px;
+}
+footer div.row .contact span.phone{
+	margin-bottom: 32px;
+
+}
+footer div.row .contact span.email{
+}
+
+footer div.row .contact span i{
+	margin-right: 15px;
+}
+footer div.row .social{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer div.row .social ul{
+	list-style: none;
+	padding: 0px;
+}
+footer div.row .social ul li{
+	float: left;
+	padding: 25px 26px 26px 1px;
+}
+footer div.wrap.social ul  li  i:before{
+	color: #fff;
+}
+footer > div:nth-child(1){
+	padding-left: 116px;
+	justify-content: space-evenly;
+}
+footer > div.row:nth-child(2){
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 70px;
+	width: 100%;
+}
+footer > div.row:nth-child(2) span.copywrite{
+	font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: rgba(200, 200, 200, 0.5);
+}
+
+
+/*----------gallery-------------*/
+
+
+span.pagin{
+	width: 23.98px;
+	height: 24px;
+	font-family: TT Hoves;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 24px;
+	color: #BDBDBD;
+}
+span.pagin:nth-child(1){
+	color: #333333;
+}
+
+section#gallery{
+	/*max-width: 1440px;*/
+}
+section#gallery img{
+	height: 260px;
+	width: 210px;
+	 margin-right: 14px;
+    margin-bottom: 30px;
+}
+
+section#gallery .row, section#project_header .row, section#garage .row, section#sert .row:nth-child(1){
+	flex-direction: column;
+}
+section#gallery div.row:nth-child(1) > span.title:nth-child(1), section#project_header .row:nth-child(1)> .title:nth-child(1){
+	margin-top: 63px;
+	font-family: TT Hoves;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 64px;
+	line-height: 64px;
+	color: #BDBDBD;
+}
+section#gallery .row .title:nth-child(2), section#project_header .row:nth-child(1)> .bold{
+	font-family: TT Hoves;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 64px;
+	color: #333333;
+}
+section#gallery .row .wrap.img{
+	margin-top:61px;
+}
+ .row .wrap.paggination{
+	margin-bottom: 120px;
+    margin-top: 60px;
+}
+ .row .wrap.paggination .pagin{
+	margin-right: 25px;
+}
+ .row .wrap.paggination button{
+	width: 52.95px;
+	height: 53px;
+	background-color: #F2F2F2;
+	border: none;
+	margin-right: 22px;
+}
+
+
+#gallery > div > div.row:nth-child(2){
+	margin-top: 61px;
+}
+
+
+/*-------hover--------*/
+
+.img_item_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+.img_item_wrapper .img_item{
+	/*width: 20%;*/
+	margin-bottom: 30px;
+	max-width: 210px;
+	margin-right: 18px;
+	position: relative;
+	overflow: hidden;
+}
+.img_item_wrapper .img_item:before{
+	content: "";
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+	width: 100%;
+	height: 50%;
+	opacity: 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 2;
+	transition-property: top, opacity;
+	transition-duration: 0.3s;
+}
+.img_item_wrapper .img_item:hover:before{
+	top: 50%;
+	opacity: 1;
+}
+
+.img_item_wrapper .img_item:hover .text_block{
+	bottom: 0;
+}
+
+.img_item_wrapper .img_item:nth-child(5n){
+	/*margin-right: 0;*/
+}
+section#gallery .img_item_wrapper .img_item img{
+	margin-bottom: 0;
+	width: 100%;
+	margin: 0;
+}
+.img_item_wrapper .img_item .text_block{
+	padding: 20px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+	position: absolute;
+	bottom: -200px;
+	height: 50%;
+	transition: all .5s;
+}
+.img_item_wrapper .img_item .text_block .item_title{
+	animation-delay: .15s;
+	margin-top: 300px;
+	transition: all .6s;
+}
+
+.img_item_wrapper .img_item .text_block .desc{
+	animation-delay: .25s;
+	margin-top: 500px;
+	transition: all .9s;
+
+}
+
+.img_item_wrapper .img_item:hover .text_block .item_title{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.img_item_wrapper .img_item:hover .text_block .desc{
+	margin-top: 0;
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+
+/*@keyframes slidein {
+	0% {
+		margin-left: 100%;
+		width: 300%;
+	}
+
+	50% {
+		margin-left: 0%;
+		width: 100%;
+	}
+
+	90% {
+		font-size: 300%;
+		margin-left: 25%;
+		width: 150%;
+	}
+}*/
+
+
+/*----------------project------------------*/
+
+section#project_header .row:nth-child(2) .flex_wrap{
+	display: flex;
+    flex-direction: row;
+    background: #FBFBFB;
+    margin-bottom: 60px;
+}
+section#project_header .row:nth-child(2) .flex_wrap .wrap_img img{
+	width: 670px;
+    height: 435px;
+}
+section#project_header .row:nth-child(2) .flex_wrap .wrap_content{
+	display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+section#project_header .row:nth-child(2) .flex_wrap .wrap_content span.title{
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 50px;
+    color: #BDBDBD;
+}
+section#project_header .row:nth-child(2) .flex_wrap .wrap_content span.content{
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
+}
+#project_header .wrap_content > a{
+	margin-top: 30px;
+}
+section#project_header .row:nth-child(2){
+	padding-top: 30px;
+    margin-top: 30px;
+    border-top: solid 1px #F2F2F2;
+}
+
+/*-----------garage-------------------*/
+
+section#garage .row:nth-child(1)> .title:nth-child(1){
+	margin-top: 63px;
+	font-family: TT Hoves;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 64px;
+	line-height: 64px;
+	color: #BDBDBD;
+}
+section#garage .row .title:nth-child(2), section#project_header .row:nth-child(1)> .bold{
+	font-family: TT Hoves;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 64px;
+	color: #333333;
+}
+section#garage .row:nth-child(2){
+	padding-top: 30px;
+    margin-top: 30px;
+    border-top: solid 1px #F2F2F2;
+}
+section#garage .row:nth-child(2) .img_wrap{
+	width: 100%;
+    margin-bottom: 30px;
+}
+section#garage .row:nth-child(2) .img_wrap img{
+	width: 100%;
+    height: 435px;
+}
+section#garage .row:nth-child(2) div.content{
+	display: flex;
+    flex-direction: row;
+}
+section#garage .row:nth-child(2) div.content img{
+	width: 419px;
+    height: 428px;
+}
+section#garage .row:nth-child(2) div.content span.text{
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    width: 721px;
+    height: 428px;
+    margin-left: 30px;
+}
+section#garage .row:nth-child(2) div.schema{
+	margin-top: 30px;
+    margin-bottom: 120px;
+}
+section#garage .row:nth-child(2) div.schema img{
+	width: 1170px;
+    height: 435px;
+}
+
+
+/*----------------sertefikat------------------------------------*/
+section#sert .row:nth-child(1)> .title:nth-child(1){
+	margin-top: 63px;
+	font-family: TT Hoves;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 64px;
+	line-height: 64px;
+	color: #BDBDBD;
+}
+section#sert .row .title:nth-child(2), section#project_header .row:nth-child(1)> .bold{
+	font-family: TT Hoves;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 64px;
+	color: #333333;
+}
+
+section#contactInfo .row{
+	display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+}
+section#contactInfo .row .wrap.info{
+	display: flex;
+    flex-direction: column;
+}
+section#contactInfo .row .wrap.info .nameLocation{
+	flex-direction: column;
+    display: flex;
+}
+section#contactInfo .row .wrap.info .headTitle{
+	flex-direction: column;
+    display: flex;
+    margin-bottom: 34px;
+}
+section#contactInfo .row .wrap.info .headTitle .title{
+	margin-top: 63px;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+section#contactInfo .row .wrap.info .headTitle .titleBold{
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+}
+section#contactInfo .row .wrap.info .bold{
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+section#contactInfo .row .wrap.info .phone{
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    margin-top: 44px;
+}
+section#contactInfo .row .wrap.info .email{
+	margin-top: 44px;
+}
+section#contactInfo .row .wrap.info a{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 222px;
+    height: 71px;
+    background-color: #000;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 32px;
+}
+section#contactInfo .row .wrapMap{
+	margin-left: 34px;
+}
+#conectModal .modal-content{
+	padding: 15px 0 28px 0;
+}
+#conectModal .modal-header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem;
+    border-bottom: none;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+#conectModal .modal-header .close {
+	margin-left: 0px;
+	position: absolute;
+    right: 39px;
+}
+
+.modal-dialog{
+	width: 469px;
+}
+#conectModal form  #InputName, #InputPhone, #InputEmail, #InputTag{
+	width: 391px;
+    height: 46px;
+    margin: 0px auto 10px auto;
+    background: #F3F3F3;
+    padding-left: 21px;
+}
+#conectModal form textarea#InputMess{
+    width: 391px;
+    height: 147px;
+    margin: 0px auto 10px auto;
+    background: #F3F3F3;
+    padding-left: 21px;
+}
+#conectModal form input#Check{
+    margin-left: 2px;
+}
+
+#conectModal form label.form-check-label{
+	margin-left: 26px;
+}
+#conectModal form .form-check{
+	width: 391px;
+}
+
+#conectModal .modal-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-top: none;
+}
+#conectModal .modal-footer .btn.btn-primary{
+	border-color: #333333;
+    background-color: #333333;
+    width: 391px;
+}
+#succesModal .modal-header{
+    border-bottom: none;
+}
+#succesModal .modal-body{
+	display: flex;
+    flex-direction: column;
+}
+#succesModal .modal-body img{
+	width: 142px;
+    align-self: center;
+    height: 142px;
+}
+#succesModal .modal-body .title{
+	align-self: center;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #333333;
+}
+#succesModal .modal-body .cont{
+	font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #4F4F4F;
+}
+#succesModal .modal-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-top: none;
+}
+#succesModal .modal-footer .btn.btn-primary{
+	border-color: #333333;
+    background-color: #333333;
+    width: 391px;
+}
+
+#succesModal .modal-content{
+	padding-bottom: 28px;
+}
