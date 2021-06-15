@@ -387,7 +387,7 @@ footer div.wrap.logo{
 footer div.row:nth-child(1){
 	margin-bottom: 60px;
     flex-direction: row;
-    padding-left: 116px;
+    /*padding-left: 116px;*/
     width: 100%;
 }
 footer div.row .menu{
@@ -482,18 +482,18 @@ footer div.row .social ul li{
 footer div.wrap.social ul  li  i:before{
 	color: #fff;
 }
-footer > div:nth-child(1){
-	padding-left: 116px;
+footer  div:nth-child(1){
+/*	padding-left: 116px;*/	
 	justify-content: space-evenly;
 }
-footer > div.row:nth-child(2){
+footer   div.row:nth-child(2){
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	height: 70px;
 	width: 100%;
 }
-footer > div.row:nth-child(2) span.copywrite{
+footer   div.row:nth-child(2) span.copywrite{
 	font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
