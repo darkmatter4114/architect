@@ -25,13 +25,15 @@ section#head{
 }
 
 div.wrap.img.header{
-	position: absolute;
 	left: 535px;
 	height: 829px;
 	width: 770px;
 }
 div.wrap.img.header a{	
-	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: -100px 0 0 20px;
     border: 1px solid;
     width: 221.81px;
     height: 71px;
@@ -75,11 +77,23 @@ div.wrap.img.header a>i::before{
     font-size: 64px;
     line-height: 64px;
 }
+#head div.col-md-5{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #head div.button{
+	display: flex;
     margin-top: 90px;
-    
+}
+#head div.button .fa-arrow-right:before {
+	margin-left: 0;
 }
 #head div.button button{
+	border: none;
+	border-radius: 5px;
+	display: block;
 	width: 52.95px;
     height: 53px;
     background-color: #F2F2F2;
@@ -93,7 +107,7 @@ div.wrap.img.header a>i::before{
 }
 
 #company {
-	width: 1170px;
+	width: 1140px;
 	height: 435px;
 	background-color: #FBFBFB;
     margin: auto;
@@ -221,7 +235,7 @@ div.wrap.img.header a>i::before{
     margin-bottom: 60px;
 }
 
-#project a.all{
+#project a.all-proj{
 	display: flex;
     align-self: flex-end;
     align-items: center;

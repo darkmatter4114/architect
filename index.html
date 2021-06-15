@@ -8,6 +8,7 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<title>Main</title>
 
 </head>
@@ -47,22 +48,28 @@
 	<section id="head">
 		<div class="container">
 			<div class="row">
-				<div>
+				<div class="col-md-5">
 					<div class="title">
 	                    <span class="title">PROECT</span>
 					    <span class="title bold">NURTOWN</span>
 					</div>
 					<div class="button">
-						<button><i class="fas fa-arrow-left"></i></button>
-						<button><i class="fas fa-arrow-right"></i></button>
+						<button class="left"><i class="fas fa-arrow-left"></i></button>
+						<button class="right"><i class="fas fa-arrow-right"></i></button>
 					</div>
                     <div class="wrap paggination">
-                    	<span class="pagin">01</span><span class="pagin">/</span><span class="pagin" >02</span>
+                    	<span class="pagin current">01</span>
+						<span class="pagin">/</span>
+						<span class="pagin all" >02</span>
                     </div>
 				</div>
-				<div>
+				<div class="col-md-7 document-slider">
 					<div class="wrap img header">
 						<img src="img/header.png" alt="">
+						<a href="">Поглянути<i class="fas fa-arrow-right"></i></a>
+					</div>
+					<div class="wrap img header">
+						<img src="img/header-mirror.png" alt="">
 						<a href="">Поглянути<i class="fas fa-arrow-right"></i></a>
 					</div>
 				</div>
@@ -119,7 +126,7 @@
 					<img src="img/image 17.png" alt="">
 					<img src="img/image 18.png" alt="">
 				</div>
-				<a class="all" href="">Всі Проекти<i class="fas fa-arrow-right"></i></a>
+				<a class="all-proj" href="project.html">Всі Проекти<i class="fas fa-arrow-right"></i></a>
 			</div>
 		</div>
 	</section>		
@@ -210,10 +217,37 @@
 
 
 
-	
 
+	
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+    	$(document).ready(function() {
+			var backButton = $('.left')
+			var nextButton = $('.right')
+			$('.document-slider').slick({
+				infinite: true,		
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				prevArrow: backButton,
+				nextArrow: nextButton
+			});
+		});
+
+    	// var $status = $('.slideInfo');
+    	var $current = $('.current')
+    	var $all = $('.all')
+    	var $slickElement = $('.document-slider');
+
+    	$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+		//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+				var i = (currentSlide ? currentSlide : 0)+1;
+		$current.text('0' + i);
+		$all.text('0' + slick.slideCount);
+		});
+	</script>
 </body>
 </html>
